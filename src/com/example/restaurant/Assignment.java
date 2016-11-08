@@ -19,7 +19,7 @@ public class Assignment {
 	        {
                 String line = scanner.nextLine(); //Read entries from file into ArrayList
                 data.add(line);
-            }
+                }
 	        
 	       //First element contains total available time and number of items
 	       String first_element = data.get(0); 
@@ -55,9 +55,7 @@ public class Assignment {
 
 	}
 	
-	
-	
-	// Returns the maximum value of satisfaction that can be attained in the time limit using Knapsack algorithm
+    // Returns the maximum value of satisfaction that can be attained in the time limit using Knapsack algorithm
     static int solve(int T, int time[], int satisfaction[], int n)
     {
     	
